@@ -1,4 +1,4 @@
-# YOLOV7
+# YOLOV7 教學記錄文
 ![image](https://user-images.githubusercontent.com/46515944/179973455-f817fd76-410b-4566-9485-461c26962805.png)
 
 前言
