@@ -1,0 +1,22 @@
+**處，為需要修改的地方。
+** means you mustmotify the resource!!
+
+
+
+
+#測試 test
+python detect.py --weights **yolo7.pt --conf 0.25 --img-size 640 --source **inference/images/horses.jpg
+
+
+#訓練 train
+python train.py --device **0 --workers 0 --batch-size **4 --data **data/your.yaml --cfg **cfg/colon.yaml 
+後面加 > 檔案名.txt ，訓練完的結果會儲存再檔案名.txt
+
+
+#實際跑圖片 run image
+python detect.py --weights **D:\desktop\yolov7\runs\train\exp8\weights\best.pt --source **test
+test可修改成預跑結果的圖片資料夾
+
+
+#輸出標記 .txt 檔  output more files like label(.txt)
+python detect.py --weights **D:\desktop\yolov7\runs\train\exp8\weights\best.pt --source **test
